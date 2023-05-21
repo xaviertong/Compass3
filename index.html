@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CompassHomePage</title>
+  <style>
+    body {
+      text-align: center;
+      background-image: url("img/sea.webp");
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh; /* Ensure full viewport height */
+    }
+    
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start; /* Align logos to the left */
+      margin-top: 50px;
+    }
+    
+    .button {
+      display: flex;
+      align-items: center;
+      padding: 15px 30px;
+      background-color: white;
+      color: black;
+      text-decoration: none;
+      font-size: 24px;
+      margin: 10px;
+      cursor: pointer;
+      border-radius: 10px;
+      width: 400px; /* Adjust the width as needed */
+    }
+    
+    .button img {
+      width: 50px; /* Adjust the logo size as needed */
+      height: 50px;
+      margin-right: 10px;
+    }
+    
+    .button .button-text {
+      flex: 1;
+      text-align: center; /* Center text horizontally */
+    }
+    
+    .logo {
+      margin-top: 28px;
+    }
+    
+    .logo img {
+      max-width: 32%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo">
+    <img src="img/logo.png" alt="Logo">
+  </div>
+  <br>
+  <br>
+  <br>
+  <div class="button-container">
+    <a href="https://www.notion.so/Major-Career-Consulting-e7e2ed6e3fc14d2392ad6640b54f3caa?pvs=4" target="_blank" class="button">
+      <img src="img/compass.png" alt="Logo">
+      <span class="button-text">Major & Career Consulting</span>
+    </a>
+    <a href="https://www.notion.so/Join-the-Sailor-Family-a93696a96a554334b82a9c47ef6f3f2c?pvs=4" target="_blank" class="button">
+      <img src="img/ship.png" alt="Logo">
+      <span class="button-text">Join the Sailor Family</span>
+    </a>
+    <a href="https://www.notion.so/About-Us-6356daf39f934fc7a399c4b4df7965de?pvs=4" target="_blank" class="button">
+      <img src="img/ankor.png" alt="Logo">
+      <span class="button-text">About Us</span>
+    </a>
+  </div>
+</body>
+</html>
